@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <html>
 <head>
 	<meta charset="utf-8">
@@ -176,352 +175,51 @@
 	</div>
 	<div id="right">
 		<div class="iphone">
-			<img src="">
-=======
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8"/>
-	<meta name="apple-itunes-app" content="app-id=957104956"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>Gs Keyboard — The Hodor and Yo Keyboard</title>
-
-	<style data-strip-on-export>
-	[contentEditable] {
-		outline: none;
-	}
-	#controls {
-		position: fixed;
-		/*background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0));*/
-		padding: 10px;
-		top: 0px;
-		left: 0px;
-		right: 0px;
-		text-align: right;
-		z-index: 10;
-	}
-	#controls button {
-		appearance: none;
-		-webkit-appearance: none;
-		-moz-appearance: none;
-		-ms-appearance: none;
-		color: black;
-		background-color: white;
-		padding: 0.5em;
-		font-weight: bold;
-		border: none;
-		box-shadow: 0px 0px 3px gray;
-	}
-	#controls button:hover {
-		background-color: #eee;
-	}
-	</style>
-	<script data-strip-on-export>
-		var id = "957104956";
-		function exportHTML(route) {
-			var toStrip = document.querySelectorAll('[data-strip-on-export]');
-			for (var i=0; i<toStrip.length; i++) {
-				toStrip[i].parentElement.removeChild(toStrip[i]);
-			}
-			document.getElementById('content').removeAttribute('contentEditable');
-			var html = document.querySelector("html").outerHTML;
-			var form = document.createElement('form');
-			form.action = "/export";
-			form.method = "POST";
-			form.target = "_blank";
-			var setVal = function(name, val) {
-				var input = document.createElement("input");
-				input.type = "hidden";
-				input.name = name;
-				input.value = val;
-				form.appendChild(input);
-			}
-			setVal("html", html);
-			setVal("id", id);
-			setVal("route", route);
-			setVal("name", document.title);
-			form.style.display = "none";
-			document.body.appendChild(form);
-			form.submit();
-		}
-	</script>
-	
-
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"/>
-
-<style>
-@import url(http://fonts.googleapis.com/css?family=Raleway);
-
-html, body, #content {
-	margin: 0px;
-	height: 100%;
-	font-family: sans-serif;
-	font-weight: lighter;
-	color: #3fbd63;
-	background-color: #fced01;
-	text-align: center;
-	line-height: 1.4;
-}
-#splash {
-	height: 100%;
-	width: 100%;
-	display: table;
-	table-layout: fixed;
-	max-width: 700px;
-	margin: auto;
-	position: relative;
-}
-@media screen and (min-width: 700px) {
-	#splash > div {
-		display: table-cell;
-		vertical-align: middle;
-		padding: 1em;
-		height: 100%;
-	}
-	#splash #left {
-		text-align: right;
-	}
-	#splash #right {
-		text-align: left;
-	}
-	#splash .iphone {
-		width: 288px;
-		height: 576px;
-	}
-	#screenshots img {
-		max-width: 200px;
-	}
-	#like-container {
-		position: absolute;
-		top: 100%;
-		right: 20px;
-		margin-top: -50px;
-	}
-}
-#chevron {
-	position: absolute;
-	left: 50%;
-	top: 100%;
-	margin-top: -2em;
-	color: #3fbd63;
-	opacity: 0.5;
-	margin-left: -0.5em;
-}
-@media screen and (max-width: 700px) {
-	#chevron {
-		display: none;
-	}
-	#splash .iphone {
-		width: 192px;
-		height: 384px;
-		display: inline-block;
-	}
-	#splash #left {
-		padding: 10px;
-	}
-	#screenshots img {
-		max-width: 100px;
-	}
-	#splash .appstore {
-		display: none;
-	}
-}
-img.appstore {
-	max-width: 120px;
-}
-.iphone {
-	background-image: url('http://app-stop.appspot.com/static/5s.png');
-	background-size: contain;
-	position: relative;
-	width: 720px;
-	height: 1440px;
-}
-.iphone img {
-	position: absolute;
-	top: 17.9%;
-	left: 14%;
-	width: 73%;
-}
-h1, h2, h3, h4, h5, h6 {
-	font-family: "Raleway", sans-serif;
-	font-weight: normal;
-}
-#icon-row {
-	margin: 30px;
-	margin-top: 40px;
-	margin-bottom: 80px;
-	border-bottom: 1px solid rgba(0,0,0,0.3);
-	position: relative;
-}
-#icon-row #icon-container {
-	position: absolute;
-	width: 80px;
-	height: 80px;
-	left: 50%;
-	top: 50%;
-	margin-left: -50px;
-	margin-top: -50px;
-	border: 10px solid #fced01;
-}
-#icon-row img {
-	width: 100%;
-	border-radius: 19px;
-	box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
-}
-#description {
-	margin: auto;
-	width: 90%;
-	max-width: 600px;
-}
-#screenshots {
-	margin-bottom: 2em;
-}
-#screenshots img {
-	border: 1px solid white;
-	box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
-	margin: 1em;
-}
-#description {
-	white-space: pre-wrap;
-}
-#stars {
-	text-align: center;
-	font-style: italic;
-	font-size: small;
-}
-#stars span {
-	display: block;
-	font-size: 30px;
-	font-style: normal;
-}
-#attribution {
-	font-size: small;
-	padding: 2em;
-}
-#attribution a {
-	color: #3fbd63;
-}
-</style>
-
-
-</head>
-<body>
-	<!-- begin Facebook SDK -->
-	<div id="fb-root"></div>
-	<script>(function(d, s, id) {
-	  var js, fjs = d.getElementsByTagName(s)[0];
-	  if (d.getElementById(id)) return;
-	  js = d.createElement(s); js.id = id;
-	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=385205984962960&version=v2.0";
-	  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
-	<!-- end Facebook SDK -->
-
-
-	<div id='controls' data-strip-on-export>
-		<button onClick="exportHTML('github')">Export to Github</button>
-		<button onClick="exportHTML('url')">Get shareable URL</button>
-	</div>
-<div id='content' contentEditable>
-
-
-<div id='chevron' class='fa fa-chevron-down'></div>
-<div id='splash'>
-	<div id='left'>
-		<h1>Gs Keyboard — The Hodor and Yo Keyboard</h1>
-		<p>Gs Keyboard is the ultimate expression keyboard, designed for fast and cheerful typing!</p>
-		<a href='https://itunes.apple.com/us/app/gs-keyboard-hodor-yo-keyboard/id957104956?mt=8&amp;uo=4'><img class='appstore' src='http://app-stop.appspot.com/static/appstore.svg' alt='Download on the Apple App Store'/></a>
-	</div>
-	<div id='right'>
-		<div class='iphone'>
-			<img src='http://a5.mzstatic.com/us/r30/Purple5/v4/ce/cc/aa/ceccaa16-80c8-9d70-ef76-8b7a6575d74b/screen1136x1136.jpeg'/>
->>>>>>> 8f14ed164f964038d8d4283aa46f2b4fa612afc2
+			<img src="/screenshot1.png">
 		</div>
 	</div>
 </div>
 
-<<<<<<< HEAD
 <div id="icon-row">
 	<div id="icon-container">
-		<img src="http://is1.mzstatic.com/image/pf/us/r30/Purple1/v4/05/34/79/05347906-7bd7-9787-51da-637b6655584f/pr_source.png">
+		<img src="/app-icon.png">
 	</div>
 </div>
 
 <div id="screenshots">
 
-		<img src="http://a1.mzstatic.com/us/r30/Purple3/v4/b6/cd/17/b6cd17f9-cd51-5d4e-5087-cf64f8c267e1/screen322x572.jpeg">
+		<img src="/screenshot2.png">
 
-		<img src="http://a3.mzstatic.com/us/r30/Purple1/v4/eb/6e/80/eb6e80e1-ca13-4ede-95be-95b27da76ace/screen1136x1136.jpeg">
+		<img src="/screenshot3.png">
 
-		<img src="http://a2.mzstatic.com/us/r30/Purple3/v4/26/43/1d/26431d85-a539-3f7f-8c3e-7fb59ec82df6/screen322x572.jpeg">
+		<img src="/screenshot4.png">
 
-=======
-<div id='icon-row'>
-	<div id='icon-container'>
-		<img src='http://is1.mzstatic.com/image/pf/us/r30/Purple1/v4/05/34/79/05347906-7bd7-9787-51da-637b6655584f/pr_source.png'/>
-	</div>
-</div>
-
-<div id='screenshots'>
-	
-		<img src=http://a1.mzstatic.com/us/r30/Purple3/v4/b6/cd/17/b6cd17f9-cd51-5d4e-5087-cf64f8c267e1/screen322x572.jpeg />
-	
-		<img src=http://a3.mzstatic.com/us/r30/Purple1/v4/eb/6e/80/eb6e80e1-ca13-4ede-95be-95b27da76ace/screen1136x1136.jpeg />
-	
-		<img src=http://a2.mzstatic.com/us/r30/Purple3/v4/26/43/1d/26431d85-a539-3f7f-8c3e-7fb59ec82df6/screen322x572.jpeg />
-	
->>>>>>> 8f14ed164f964038d8d4283aa46f2b4fa612afc2
 </div>
 
 
 
-<<<<<<< HEAD
-<p id="description">Gs Keyboard is the ultimate expression keyboard, designed for fast and cheerful typing!
-=======
-<p id='description'>Gs Keyboard is the ultimate expression keyboard, designed for fast and cheerful typing!
->>>>>>> 8f14ed164f964038d8d4283aa46f2b4fa612afc2
+<p id="description">The simplest and most beautiful tally counter app!
 
-FEATURES
---------------------------
-1. Only one tap to write expressions like gs, yo and din mamma.
-2. Long press to write TEN EXPRESSIONS PER SECOND!
-3. Switch between uppercase and lowercase with a single swipe.
-4. Easily add punctuation with a swipe.
-5. Customize the expressions to your liking, and add your own (future upgrade)!
+Great for tracking habits, game scoring, and counting all other important things in your life.
 
-CURRENT EXPRESSIONS
---------------------------
-1. Gs (of course)
-2. Hodor
-3. Din Mamma
-4. Yo
-5. Vs
-Suggestions? Send a message at http://gs-support.comoj.com.
+Tap anywhere to count up. Swipe left to count down. Hold for options. Simple as that!
 
-CREDITS
---------------------------
-Developed by Arvid Lunnemark.
-<<<<<<< HEAD
-Big thanks go to Melker Georgson and Oscar Wendel Mueller, for their participation as models. They've done an awesome job. (Hint: want to donate? Send them each 10 % of the amount.)
-Another thank you goes to Emojione, providing the yo and the hodor image.</p>
+• UNLIMITED COUNTERS. And they are shown in a beautiful, adaptive layout.
+• COUNT MANY AT ONCE. And do it right in the list, without hassle. Great for game scoring!
+• FULL SCREEN MODE. For when you don't want to or can't look at the screen while counting. Just pinch to zoom in on a counter in the list, and—voilà!—the whole screen's the button!
+• SET THE COUNT MANUALLY. Get a head start! Just tap on the count while showing the options, and enter a new amount.
+• QUICKLY ADD A TITLE. But you certainly don't have to.
+• NICE SOUND EFFECTS. Or, you can have the app speak the current count to you.
+• AND MORE: Optional vibration on count, bulk deletion, option to prevent the screen from auto locking, and (of course) an awesome experience.
+
+Developed and designed by Arvid Lunnemark. From Malmö, Sweden with love.</p>
 
 <p>
-	<a href="https://itunes.apple.com/us/app/gs-keyboard-hodor-yo-keyboard/id957104956?mt=8&amp;uo=4"><img class="appstore" src="http://app-stop.appspot.com/static/appstore.svg" alt="Download on the Apple App Store"></a>
+	<a href="https://itunes.apple.com/us/app/simple-counter-tally-counters/id993429927?ls=1&mt=8&uo=4"><img class="appstore" src="http://app-stop.appspot.com/static/appstore.svg" alt="Download on the Apple App Store"></a>
 </p>
 
-<p>
+<!--<p>
 	</p><div id="like-container"><div class="fb-like fb_iframe_widget" data-href="http://app-stop.appspot.com/id/957104956" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=385205984962960&amp;container_width=0&amp;href=http%3A%2F%2Fapp-stop.appspot.com%2Fid%2F957104956&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=true"><span style="vertical-align: bottom; width: 122px; height: 20px;"><iframe name="f382aaa0a8" width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:like Facebook Social Plugin" src="http://www.facebook.com/v2.0/plugins/like.php?action=like&amp;app_id=385205984962960&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2F1ldYU13brY_.js%3Fversion%3D41%23cb%3Df2f526385c%26domain%3Dapp-stop.appspot.com%26origin%3Dhttp%253A%252F%252Fapp-stop.appspot.com%252Ff275a16b9c%26relation%3Dparent.parent&amp;container_width=0&amp;href=http%3A%2F%2Fapp-stop.appspot.com%2Fid%2F957104956&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=true" class="" style="border: none; visibility: visible; width: 122px; height: 20px;"></iframe></span></div></div>
-=======
-Big thanks go to Melker Georgson and Oscar Wendel Mueller, for their participation as models. They&#39;ve done an awesome job. (Hint: want to donate? Send them each 10 % of the amount.)
-Another thank you goes to Emojione, providing the yo and the hodor image.</p>
-
-<p>
-	<a href='https://itunes.apple.com/us/app/gs-keyboard-hodor-yo-keyboard/id957104956?mt=8&amp;uo=4'><img class='appstore' src='http://app-stop.appspot.com/static/appstore.svg' alt='Download on the Apple App Store'/></a>
-</p>
-
-<p>
-	<div id='like-container'></div>
->>>>>>> 8f14ed164f964038d8d4283aa46f2b4fa612afc2
 	<script>
 	// dynamically create a Facebook like button for the current URL:
 	var like = document.createElement("div");
@@ -533,29 +231,15 @@ Another thank you goes to Emojione, providing the yo and the hodor image.</p>
 	like.setAttribute("data-share", "true");
 	document.getElementById("like-container").appendChild(like);
 	</script>
-<<<<<<< HEAD
-<p></p>
+<p></p>-->
 
-<p id="copyright">© Olof Ahreus Lunnemark </p>
+<!--<p id="copyright">© Arvid Lunnemark</p>
 
 <p id="attribution">
 Landing page created automatically with <a href="http://app-stop.appspot.com">AppStop</a></p>
-=======
-</p>
-
-<p id='copyright'>&copy; Olof Ahreus Lunnemark </p>
-
-<p id='attribution'>
-Landing page created automatically with <a href='http://app-stop.appspot.com'>AppStop</a></p>
->>>>>>> 8f14ed164f964038d8d4283aa46f2b4fa612afc2
-
+-->
 
 </div>
 
-<<<<<<< HEAD
 
 </body></html>
-=======
-</body>
-</html>
->>>>>>> 8f14ed164f964038d8d4283aa46f2b4fa612afc2
