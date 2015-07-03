@@ -162,3 +162,7 @@ footer a {
     display: none;
   }
 }
+
+#chevron {
+  display: none;
+}
