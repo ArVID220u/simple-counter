@@ -127,9 +127,9 @@ footer a {
   #screenshots img {
     max-width: 100px;
   }
-  /*#topAppstore {
-    margin-bottom: 1.1em;
-  }*/
+  #description-features {
+    margin-top: 0;
+  }
   #icon-row {
     margin-top: 60px;
     margin-bottom: 60px;
