@@ -136,7 +136,7 @@ h3 {
     max-width: 100px;
   }
   #screenshots .screenshot img {
-    max-width: 100px;
+    width: 100%;
   }
   #description-features {
     margin-top: 0;
@@ -181,7 +181,7 @@ h3 {
     max-width: 200px;
   }
   #screenshots .screenshot img {
-    max-width: 200px;
+    width: 100%;
   }
   #like-container {
     position: absolute;
