@@ -95,6 +95,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   display: inline-block;
   margin: 1em;
+  margin-bottom: auto;
   background-color: #555555;
 }
 #screenshots .screenshot img {
