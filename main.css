@@ -107,6 +107,10 @@ footer a {
   color: rgba(85, 172, 238, 1.0);
 }
 
+h3 {
+  font-size: 2em;
+}
+
 
 /* Layout for narrow screens (e.g. iPhone) */
 @media screen and (max-width: 700px) {
