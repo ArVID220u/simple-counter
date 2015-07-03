@@ -128,7 +128,7 @@ footer a {
   #icon-row {
     margin-top: 80px;
   }
-  #icon-container {
+  #icon-row #icon-container {
     width: 60px;
     height: 60px;
   }
