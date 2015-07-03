@@ -90,11 +90,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 #screenshots {
   margin-bottom: 2em;
-  vertical-align: top;
 }
 .screenshot {
   text-align: center;
-  display: table-cell;
+  display: inline-block;
   margin: 1em;
 }
 #screenshots .screenshot img {
