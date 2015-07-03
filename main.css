@@ -128,7 +128,10 @@ footer a {
     max-width: 100px;
   }
   #description-features {
-    margin-top: 0px;
+    margin-top: 0;
+  }
+  #screenshots {
+    margin-bottom: 60px;
   }
   #icon-row {
     margin-top: 60px;
