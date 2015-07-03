@@ -113,6 +113,9 @@ footer a {
     height: 391px;
     display: inline-block;
   }
+  #splash {
+    height: inherit;
+  }
   #splash #left {
     padding: 10px;
   }
