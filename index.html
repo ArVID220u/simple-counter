@@ -13,7 +13,7 @@
 		html, body, #content {
 			margin: 0px;
 			height: 100%;
-			font-family: sans-serif;
+			font-family: "San Fransisco", "Helvetica", sans-serif;
 			font-weight: lighter;
 			color: #000000;
 			background-color: #ffffff;
@@ -72,11 +72,14 @@
 			opacity: 0.5;
 			margin-left: -0.5em;
 		}
-		img.appstore {
+		#topAppstore {
 			max-width: 120px;
 		}
+		#bottomAppstore {
+			max-width: 150px;
+		}
 		h1, h2, h3, h4, h5, h6 {
-			font-family: "Raleway", sans-serif;
+			font-family: "Raleway", "Helvetica", sans-serif;
 			font-weight: normal;
 		}
 		#icon-row {
@@ -101,9 +104,8 @@
 			#screenshots img {
 				max-width: 100px;
 			}
-			#splash .appstore {
-				margin-bottom: 2em;
-				margin-top: 2em;
+			#topAppstore {
+				margin-bottom: 1em;
 			}
 			#icon-row {
 				margin-top: 80px;
@@ -171,7 +173,9 @@
 	<div id="left">
 		<h1>Simple Counter</h1>
 		<p>The simplest and most beautiful tally counter app. Downright.</p>
-		<a href="https://itunes.apple.com/us/app/simple-counter-tally-counters/id993429927?ls=1&mt=8&uo=4"><img class="appstore" src="http://app-stop.appspot.com/static/appstore.svg" alt="Download on the Apple App Store"></a>
+		<a href="https://itunes.apple.com/us/app/simple-counter-tally-counters/id993429927?ls=1&mt=8&uo=4">
+			<img class="appstore" id="topAppstore" src="http://app-stop.appspot.com/static/appstore.svg" alt="Download on the Apple App Store">
+		</a>
 	</div>
 	<div id="right">
 		<div class="iphone">
@@ -215,7 +219,7 @@
 </div>
 
 <p>
-	<a href="https://itunes.apple.com/us/app/simple-counter-tally-counters/id993429927?ls=1&mt=8&uo=4"><img class="appstore" src="http://app-stop.appspot.com/static/appstore.svg" alt="Download on the Apple App Store"></a>
+	<a href="https://itunes.apple.com/us/app/simple-counter-tally-counters/id993429927?ls=1&mt=8&uo=4"><img class="appstore" id="bottomAppstore" src="http://app-stop.appspot.com/static/appstore.svg" alt="Download on the Apple App Store"></a>
 </p>
 
 <footer>
