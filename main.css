@@ -157,7 +157,7 @@ footer a {
 }
 
 /* If the screen is wide but has low height, the chevron should be removed. */
-@media screen and (min-width: 700px) and (max-height: 670px) {
+@media screen and (min-width: 700px) and (max-height: 680px) {
   #chevron {
     display: none;
   }
