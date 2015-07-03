@@ -27,6 +27,11 @@ html, body, #content {
   position: relative;
 }
 
+.iphone {
+  margin-top: 1.1em;
+  margin-bottom: 1.1em;
+}
+
 #chevron {
   position: absolute;
   left: 50%;
@@ -122,17 +127,17 @@ footer a {
   #screenshots img {
     max-width: 100px;
   }
-  #topAppstore {
+  /*#topAppstore {
     margin-bottom: 1.1em;
-  }
+  }*/
   #icon-row {
     margin-top: 80px;
   }
   #icon-row #icon-container {
-    width: 70px;
-    height: 70px;
-    margin-left: -45px;
-    margin-top: -45px;
+    width: 64px;
+    height: 64px;
+    margin-left: -42px;
+    margin-top: -42px;
   }
 }
 
