@@ -147,6 +147,9 @@ h3 {
     margin-left: -42px;
     margin-top: -42px;
   }
+  .screenshotCaption {
+    display: none;
+  }
 }
 
 /* Layout for wide screens (iPad mini and up) */
@@ -175,6 +178,10 @@ h3 {
     top: 100%;
     right: 20px;
     margin-top: -50px;
+  }
+  .screenshotCaption {
+    font-size: 0.8em;
+    
   }
 }
 
