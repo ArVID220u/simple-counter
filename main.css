@@ -26,33 +26,7 @@ html, body, #content {
   margin: auto;
   position: relative;
 }
-@media screen and (min-width: 700px) {
-  #splash > div {
-    display: table-cell;
-    vertical-align: middle;
-    padding: 1em;
-    height: 100%;
-  }
-  #splash #left {
-    text-align: right;
-  }
-  #splash #right {
-    text-align: left;
-  }
-  #splash .iphone img {
-    width: 280px;
-    height: 570px;
-  }
-  #screenshots img {
-    max-width: 200px;
-  }
-  #like-container {
-    position: absolute;
-    top: 100%;
-    right: 20px;
-    margin-top: -50px;
-  }
-}
+
 #chevron {
   position: absolute;
   left: 50%;
@@ -79,28 +53,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 80px;
   border-bottom: 1px solid rgba(0,0,0,0.3);
   position: relative;
-}
-@media screen and (max-width: 700px) {
-  #chevron {
-    display: none;
-  }
-  #splash .iphone img {
-    width: 192px;
-    height: 391px;
-    display: inline-block;
-  }
-  #splash #left {
-    padding: 10px;
-  }
-  #screenshots img {
-    max-width: 100px;
-  }
-  #topAppstore {
-    margin-bottom: 1.1em;
-  }
-  #icon-row {
-    margin-top: 80px;
-  }
 }
 #icon-row #icon-container {
   position: absolute;
@@ -148,4 +100,65 @@ footer {
 footer a {
   text-decoration: none;
   color: rgba(85, 172, 238, 1.0);
+}
+
+
+/* Layout for narrow screens (e.g. iPhone) */
+@media screen and (max-width: 700px) {
+  #chevron {
+    display: none;
+  }
+  #splash .iphone img {
+    width: 192px;
+    height: 391px;
+    display: inline-block;
+  }
+  #splash #left {
+    padding: 10px;
+  }
+  #screenshots img {
+    max-width: 100px;
+  }
+  #topAppstore {
+    margin-bottom: 1.1em;
+  }
+  #icon-row {
+    margin-top: 80px;
+  }
+}
+
+/* Layout for wide screens (iPad mini and up) */
+@media screen and (min-width: 700px) {
+  #splash > div {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 1em;
+    height: 100%;
+  }
+  #splash #left {
+    text-align: right;
+  }
+  #splash #right {
+    text-align: left;
+  }
+  #splash .iphone img {
+    width: 280px;
+    height: 570px;
+  }
+  #screenshots img {
+    max-width: 200px;
+  }
+  #like-container {
+    position: absolute;
+    top: 100%;
+    right: 20px;
+    margin-top: -50px;
+  }
+}
+
+/* If the screen is wide but has low height, the chevron should be removed. */
+@media screen and (min-width: 700px, max-height: 590px) {
+  #chevron {
+    display: none;
+  }
 }
