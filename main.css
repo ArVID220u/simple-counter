@@ -130,6 +130,9 @@ footer a {
   /*#topAppstore {
     margin-bottom: 1.1em;
   }*/
+  #icon-row {
+    margin-top: 0.5em;
+  }
   #icon-row #icon-container {
     width: 64px;
     height: 64px;
