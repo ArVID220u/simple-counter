@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .screenshot {
   text-align: center;
-  display: inline;
+  display: inline-block;
 }
 #icon-row {
   margin: 30px;
