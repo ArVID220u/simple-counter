@@ -128,7 +128,10 @@ h3 {
   #splash #left {
     padding: 10px;
   }
-  #screenshots img {
+  #screenshots #screenshot {
+    max-width: 100px;
+  }
+  #screenshots #screenshot img {
     max-width: 100px;
   }
   #description-features {
@@ -170,7 +173,10 @@ h3 {
     width: 280px;
     height: 570px;
   }
-  #screenshots img {
+  #screenshots #screenshot {
+    max-width: 200px;
+  }
+  #screenshots #screenshot img {
     max-width: 200px;
   }
   #like-container {
@@ -181,7 +187,7 @@ h3 {
   }
   .screenshotCaption {
     font-size: 0.8em;
-    
+
   }
 }
 
