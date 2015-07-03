@@ -128,6 +128,10 @@ footer a {
   #icon-row {
     margin-top: 80px;
   }
+  #icon-container {
+    width: 60px;
+    height: 60px;
+  }
 }
 
 /* Layout for wide screens (iPad mini and up) */
