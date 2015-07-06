@@ -1,0 +1,13 @@
+body {
+  font-family: "San Fransisco", "Helvetica", sans-serif;
+  font-weight: lighter;
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+  line-height: 1.4;
+}
+
+#container {
+  max-width: 100%;
+  min-height: 100%;
+}
