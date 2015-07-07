@@ -126,12 +126,11 @@ h3 {
 }
 
 #notShownKeywords {
-  height: 1px;
-  width: 1px;
+  width: 100%;
   padding: 0;
   margin: 0;
-  color: #ffffff;
-  font-size: 6px;
+  color: #000000;
+  font-size: 1px;
 }
 
 
