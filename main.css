@@ -125,6 +125,10 @@ h3 {
   font-size: 1.4em;
 }
 
+#notShownKeywords {
+  display: none;
+}
+
 
 /* Layout for narrow screens (e.g. iPhone) */
 @media screen and (max-width: 700px) {
